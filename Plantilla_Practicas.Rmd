@@ -1,0 +1,82 @@
+---
+title: "Prácticas de Simulación"
+subtitle: "Marcos Cruz"
+---
+#Práctica 1
+
+## Problema 1
+
+### Apartado i)
+
+Puedes escribir el texto que necesites para responder a las preguntas de las prácticas.
+
+Puedes usar **negritas** o *cursiva* y escribir ecuaciones mezcladas con texto $\bar{X}=175$ o bien fuera del texto: $$S^2 = 0.2$$
+
+**Cuando se pida comentar un resultado o una gráfica escribe un breve comentario para demostrar que has entendido lo que has hecho.**
+
+Para enumerar puedes usar:
+
+- primer elemento
+- segundo elemento
+- tercer elemento
+
+Puedes dejar espacio en vertical en centímetros:
+$$\\[1.2cm]$$
+
+O bien una línea horizontal para separar:
+
+***
+
+
+Puedes escribir comandos de R:
+
+```{r}
+x<-c(1,5,7,0,2)
+mean(x)
+```
+$$\bar{X} = 3$$
+
+
+Si no quieres que se muestre el resultado porque es un vector largo:
+
+```{r eval=FALSE}
+x<-rep(0,1000)
+x
+```
+
+
+
+Para escribir la siguiente Práctica no generes otro archivo, simplemente cambias de página y escribes el título de la siguiente práctica:
+
+\newpage
+
+#Práctica 2
+
+## Problema 1
+
+### Apartado i)
+
+Comandos que generen gráficas:
+
+
+```{r}
+plot(cars)
+```
+
+\newpage
+
+#Práctica 3
+
+## Problema 1
+
+### Apartado i)
+
+Ecuaciones con símbolos de probabilidad
+
+$$P(A\cap B) = 0.2$$
+
+$$P(A\cup B) = 0.5$$
+
+$$P(A^c | B) = 0.1$$
+
+$$ \Omega = \{A_1 \cup A_2 \cup ... \} $$
